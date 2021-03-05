@@ -386,7 +386,6 @@ body {
 .carousel-control-next,
 .carousel-control-prev {
   position: absolute;
-  bottom: -87px;
   z-index: 5;
   align-items: flex-end;
   width: 50%;
@@ -395,6 +394,8 @@ body {
 }
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
+  position: relative;
+  bottom: -87px;
   display: inline-block;
   height: 18px;
   background-repeat: no-repeat;
@@ -545,11 +546,11 @@ body {
   .carousel-control-next,
   .carousel-control-prev {
     position: absolute;
-    bottom: -130px;
   }
 
   .carousel-control-next-icon,
   .carousel-control-prev-icon {
+    bottom: -130px;
     height: 24px;
   }
 
